@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Bliss</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Cafe Bliss<span>.</span></a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Fresh Brews</h3>
+        <span>"Sip Love, Taste Happiness"</span>
+        <p>
+          Welcome to Little Bean cafe, where every cup of coffee and every bite
+          of dessert is made with love. Relax, refresh, and enjoy cozy vibes.
+        </p>
+        <a href="#" class="btn">order now</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> us</h1>
+
+      <div class="row">
+        <div class="video-container">
+          <video src="13.mp4" loop autoplay muted></video>
+          <h3>Cozy Café Vibes</h3>
+        </div>
+
+        <div class="content">
+          <h3>Why Choose Us</h3>
+          <p>
+            We serve freshly brewed coffee, delicious desserts, and a cozy
+            ambience perfect for relaxing or spending time with friends.
+          </p>
+          <p>
+            From creamy lattes to sweet pastries, every item is crafted to make
+            your day special.
+          </p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="products" id="menu">
+      <h1 class="heading">Our <span>menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="2.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Croissant</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="3.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Cookies</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="4.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Cake</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="5.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Sandwich</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEW -->
+    <section class="review" id="review">
+      <h1 class="heading">Customer <span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <p>
+            The coffee is amazing and the ambiance is aesthetic! Perfect place
+            to chill.
+          </p>
+          <h3>John</h3>
+        </div>
+
+        <div class="box">
+          <p>Best desserts in town! Loved the pink vibe and cozy feel.</p>
+          <h3>Carolina</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <h1 class="heading">Contact Us</h1>
+
+      <div class="contact-container">
+        <!-- LEFT FORM -->
+        <div class="contact-form">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Number" />
+          <textarea placeholder="Message"></textarea>
+          <button>Send Message</button>
+        </div>
+
+        <!-- RIGHT CARD -->
+        <div class="contact-card">
+          <h2>Grab a Coffee</h2>
+          <p>We are open all day</p>
+          <small>Check out our menu at www.example.com</small>
+
+          <div class="circle-img">
+            <img src="15.webp" alt="cafe" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function toggleNavbar() {
+        document.querySelector(".navbar").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
